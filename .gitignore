@@ -1,0 +1,6 @@
+/nbproject/private/
+/nbproject
+/application/config/database.php
+/production_configuration
+/.git-rewrite/
+.DS_Store

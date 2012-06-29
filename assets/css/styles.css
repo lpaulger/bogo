@@ -1,0 +1,265 @@
+body{
+	padding-top:150px;
+	background: url("/assets/image/background/woodbg.jpg");
+}
+
+/*#TileContainer{
+background-color: #FFF;
+height:2000px;
+margin-bottom: 50px;
+}*/
+
+#signinFormContainer{
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius:0px;
+	/*height:325px;*/
+	margin-left: 0px;
+	height:100%;
+}
+#signinForm{
+	
+}
+#signinFormAside{
+	background-color:#000;
+	/*height:325px;*/
+	border-radius:0px;
+	color: #7D7D7D;
+	font-size:26px;
+	line-height: 30px;
+	height:100%;
+}
+#signinRow{
+	height:300px;
+}
+
+#signinFormAside b{
+	color:#FFF;
+}
+
+#signinFormAside h4{
+	margin-top:18px;
+}
+
+#signinFormAside button{
+	margin-top:18px;
+}
+
+#signinFormAside .message{
+	width:285px;
+	margin:0 auto;
+}
+
+#signinFormBackground{
+	/*background: url(/assets/image/background/signinBackground.png);*/
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	height:100%;
+	padding-top:150px;
+	margin-top:-150px;
+}
+
+label{
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 11px;
+	font-weight:bold;
+}
+
+form input[type=password], form input[type=text]{
+	height:25px;
+}
+
+
+footer{
+	
+}
+
+.footerContainer{
+height:20px;
+background-color:#000;
+width:100%;
+display: none;
+}
+
+.navbar-inner{
+	/*background: #fff url("/assets/image/nav_bar.png");*/
+    background: #0F0F0F;
+  
+
+}
+.navbar{
+    padding-left:20px;
+     background: #0F0F0F;
+}
+
+legend{
+font-size: 26px;
+font-weight: bold;
+color:#fff;
+	border-bottom:none;
+	margin-bottom: 0px;
+}
+
+form{
+
+}
+
+.masonry{
+	background:#fff;
+	height:400px;
+}
+
+.masonry-brick{
+	border-style: solid;
+	border-width: 1px;
+	border-color:red;
+}
+
+.navbar .brand{
+	background: url("/assets/image/logo/karrrmaWordmarkBlue.png") no-repeat; 
+	position: relative;
+	width: 120px;
+	height:10px;
+	text-indent: -9999px; 
+	top: 7px;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  color: #ffffff;
+  background-color: #B4D02B;
+  }
+
+  .vendorCard{
+  	width:220px;
+  	height:248px;
+    -webkit-box-shadow: -1px 2px 10px 1px rgba(0, 0, 0, .5);
+-moz-box-shadow: -1px 2px 10px 1px rgba(0, 0, 0, .5);
+box-shadow: -1px 2px 10px 1px rgba(0, 0, 0, .5);
+
+overflow: hidden;
+  }
+
+  .vendorDetailsContainer{
+    background-color:#F07E42;
+    height:248px;
+  }
+
+  .vendorNameContainer{
+  	height:188px;
+  	text-align:center;
+    background: #fff url("/assets/image/background/fabric_plaid.png");
+    position: relative;
+    margin-top:-248px;
+  }
+
+.vcVendorName{
+  position: relative;
+  top:114px;
+  font-size:23px;
+}
+
+  .karmaIndicatorContainer{
+  	width:220px;
+  	height: 53px;
+  	background-color:#333333;
+  	padding-top:7px;
+    position: relative;
+    
+
+  }
+  .karmaIndicator{
+  	width:95px;
+  	height:46px;
+  	background: url("/assets/image/icon/karmaIndicator.png");
+  	margin: 0 auto;
+  	line-height: 43px;
+  	vertical-align:center;
+  }
+
+  .karmaPoints{
+  	color: #B4D02B;
+  	width:40px;
+  	text-align:center;
+  	line-height: 43px;
+  	margin-bottom: 0;
+  	margin-left:3px;
+  	margin-right:3px;
+  	display: block;
+  	position: relative;
+  	top:17px;
+
+  }
+
+  .moreContainer{
+  	height:76px;
+
+
+  }
+.moreTriangle{
+		/*border-top: 76px solid #F07E42;
+  	border-left: 76px solid transparent;*/
+  	height:0;
+  	width:0;
+  	position: relative;
+  	left:144px;
+    margin-left:-2px;
+
+      -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, .5);
+-moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, .5);
+box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, .5);
+
+
+
+}        
+.morePlus{
+position: absolute;
+margin-left:180px;
+margin-top:-60px;
+color:#fff;
+cursor: pointer;
+font-size:23px;
+
+width:40px;
+height:70px;
+}        
+
+.dashboardPanel{
+  height:400px;
+  background-color:red;
+}
+
+#welcomeContainer{
+  background: url("/assets/image/background/loginBG.png") no-repeat;
+  width:500px;
+  height:533px;
+  margin-right:-20px;
+}
+
+#welcomeWords{
+  height: 163px;
+  width:379px;
+  background: url("/assets/image/background/welcomeWords.png");
+  display: block;
+  margin:0 auto;
+  margin-top: 105px;
+
+}
+
+#loginForm{
+ margin-left:62px;
+ margin-top:40px;
+
+}
+#betaTestingContainer{
+/*  background-color: #fefefe;
+  border-top: 8px solid #333;
+  border-bottom: 8px solid #333;*/
+  /*background: url("/assets/image/background/betaThingsAndStuffBorder.png") no-repeat;*/
+  /*height:425px;*/
+  margin-top:104px;
+  margin-left: 100px;
+
+}
+#welcomeRow{
+
+}
