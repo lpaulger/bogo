@@ -77,7 +77,8 @@ class Authentication extends CI_Controller {
 
         $this->form_validation->set_rules('username', 'Username', 'trim|required|xss_clean');
         $this->form_validation->set_rules('password', 'Password', 'trim|required|md5');
-
+        $data = array();
+        $data['exception'] = null;
         if ($this->form_validation->run() == FALSE) {
             $data['viewLocation'] = 'authentication/user/signin';
             $data['data'] = $data;
